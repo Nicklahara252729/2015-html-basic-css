@@ -1,0 +1,68 @@
+*{
+margin:0; padding:0;
+}
+body
+{
+background-color:#ff5;
+height:50px;
+line-height:50px;
+position:relative;
+width:770px;
+margin:auto;
+margin-top:80px;
+}
+#menu-wrap ul
+{
+	display:block;
+	color:#fff;
+list-style:none;}
+#menu-wrap ul li a{
+float:left;
+width:150px;
+background-color:#fff;
+display:block;
+text-align:center;
+color:#000000;
+text-decoration:none;
+text-transform:uppercase;}
+#menu-wrap ul li a:hover{
+background-color:#f0f0f0;
+display:block;
+}
+#menu-wrap ul li:hover ul{
+display:block;
+}
+#menu-wrap ul ul{
+display:none;
+list-style:none;
+position:absolute;
+background-color:#000000;
+left:300px;
+top:50px;
+width:190px;
+}
+#menu-wrap ul ul li a{
+float:none;
+display:block;  
+padding-left:30px;
+text-align:left;
+width:160px;
+}
+#menu-wrap ul ul li a:hover{
+color:#ff9089;}
+#menu-wrap ul li ul:hover ul{
+display:block;}
+#menu-wrap ul ul ul{display:none;
+list-style:none;
+position:absolute;
+background-color:#000000;
+left:300px;
+top:50px;
+width:190px;}
+#menu-wrap ul ul li ul a{float:none;
+display:block;
+padding-left:30px;
+text-align:left;
+width:160px;}
+#menu-wrap ul ul li  ul a:hover{
+color:#ff9089;}
